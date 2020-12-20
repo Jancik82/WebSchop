@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+}
+
+#navigationMenu{
+    height: 100px;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.boxMenu{
+    height: 60px;
+    width: 200px;
+    background-color: blue;
+    text-align: center;
+    line-height: 60px;
+    border: 2px solid black;
+}
+
+#bodyShop{
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.productCard {
+    width: 72%;
+    height: auto;
+    min-width: 300px;
+    min-height: 500px;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0;
+    position: relative;
+}
+
+.product{
+    height: 380px;
+    width: 300px;
+    background-color: lightgray;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: stretch;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.img{
+    height: 180px;
+    width: 240px;
+    background-color: darkgray;
+    margin: 5px;
+}
+
+p {
+    margin:0;
+    padding:10px;
+}
+
+.productInfo {
+    width: 240px;
+    min-height: 120px;
+    text-align: center;
+    padding: 10px;
+}
+
+.name {
+    height: 20px;
+    width: 200px;
+    margin: 10px;
+    border: 2px solid black;
+}
+
+.price {
+    width: 90px;
+    height: 30px;
+    margin: 5px;
+    float: left;
+    border: 2px solid black;
+}
+
+.buttonToBasket {
+    font: 10pt Arial;
+    color: black;
+    background: lightgray;
+    width: 90px;
+    height: 55px;
+    float: right;
+    margin: 5px;
+}
+
+#basket {
+    width: 28%;
+    height: 540px;
+    min-width: 280px;
+    background-color: lightpink;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    align-content: baseline;
+    position: sticky;
+    top: 0;
+    float: right;
+}
+
+#buyBasket{
+    width: 120px;
+    height: 50px;
+    background-color: hotpink;
+    margin: 10px;
+}
+
+#removeBasket{
+    width: 120px;
+    height: 50px;
+    background-color: hotpink;
+    margin: 10px;
+}
+
+.priceBasket{
+    width: 90%;
+    background-color: hotpink;
+    margin: 5px;
+    border: 2px solid black;
+}
+
+.cardProduct {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid black;
+    margin: 5px;
+
+}
+
+.cardProductPrice {
+    margin-left: 10px;
+    margin-right: 10px;
+    float: top;
+}
